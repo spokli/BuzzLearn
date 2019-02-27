@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/defaultText"
+        android:id="@+id/txt_heading"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txt_wordgroup"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/defaultText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_heading"
+        android:layout_toEndOf="@+id/txt_heading" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt_input"
+        android:layout_alignParentStart="true"
+        android:hint="Name des Synonyms"
+        android:layout_below="@+id/txt_wordgroup"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/points"
+        android:id="@+id/lbl_points"
+        android:layout_below="@+id/etxt_input"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numpick_points"
+        android:layout_below="@+id/etxt_input"
+        android:layout_toRightOf="@+id/lbl_points"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/language"
+        android:id="@+id/lbl_language"
+        android:layout_below="@+id/numpick_points"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_language"
+        android:layout_below="@+id/numpick_points"
+        android:layout_alignLeft="@+id/numpick_points"
+        android:layout_alignStart="@+id/numpick_points"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/btn_save"
+        android:layout_below="@+id/spn_language"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="c1">
+        <item>wg1</item>
+        <item>wg2</item>
+        <item>1</item>
+    </array>
+</resources>

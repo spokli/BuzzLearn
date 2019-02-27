@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BuzzLearn</string>
+    <string name="defaultText">_DEFAULT_</string>
+
+    <!-- activity_start -->
+    <string name="mode_learn">Lernmodus</string>
+    <string name="mode_input">Eingabemodus</string>
+
+    <!-- activity start (code) -->
+    <string name="add_category">Bitte Kategorie hinzufügen!</string>
+
+    <!-- activity_input -->
+    <string name="category">Kategorie</string>
+    <string name="word">Wort</string>
+
+    <string name="show_details">Details</string>
+    <string name="add_word">(Wort suchen oder anlegen)</string>
+    <string name="mainbuzz">Haupt-Stichwort</string>
+    <string name="synonyms">Synonyme</string>
+    <string name="links">Verknüpfungen</string>
+    <string name="details">Details</string>
+
+    <!-- popup_addsynonym -->
+    <string name="points">Punkte</string>
+    <string name="language">Sprache</string>
+
+    <!-- others -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_input">InputActivity</string>
+    <string name="title_activity_train">TrainActivity</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="selecting">Selektiere...</string>
+    <string name="inserting">Füge ein...</string>
+    <string name="operating">Arbeite mit DB...</string>
+
+</resources>
